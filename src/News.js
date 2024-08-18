@@ -74,7 +74,7 @@ setspin(true);
 :<div className='main'>
 {articles.map((article, index) => (
   <div key={index}>
-    <NewsItems title={article.title?article.title.slice(0,60):"this is default title "} desc={article.description?article.description.slice(0,100):"this is defalut descrip for news"} url={article.urlToImage?article.urlToImage:"2.webp"} urlNews={article.url} />
+    <NewsItems title={article.title?article.title.slice(0,60):"this is default title "} desc={article.description?article.description.slice(0,100):"this is defalut descrip for news"} url={article.urlToImage?article.urlToImage:"https://img.freepik.com/free-photo/watercolor-light-steel-blue-wallpaper-image_53876-94665.jpg"} urlNews={article.url} />
   </div>
 ))}
 </div>}
